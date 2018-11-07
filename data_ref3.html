@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="" />
+  
+  
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<link href="libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="libs/pagedtable-1.1/js/pagedtable.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path=""><a href="#section-1"><i class="fa fa-check"></i><b>1</b> 前言</a></li>
+<li class="chapter" data-level="2" data-path=""><a href="#treasury"><i class="fa fa-check"></i><b>2</b> Treasury</a></li>
+<li class="chapter" data-level="3" data-path=""><a href="#eiu"><i class="fa fa-check"></i><b>3</b> EIU</a></li>
+<li class="chapter" data-level="4" data-path=""><a href="#section-4"><i class="fa fa-check"></i><b>4</b> 描述性统计</a><ul>
+<li class="chapter" data-level="4.1" data-path=""><a href="#--"><i class="fa fa-check"></i><b>4.1</b> 主要外国 (地区) 投资者持有的美国长期国债平均份额和变动</a></li>
+<li class="chapter" data-level="4.2" data-path=""><a href="#--"><i class="fa fa-check"></i><b>4.2</b> 2014年主要外国 (地区) 投资者持有各美元证券的比例</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path=""><a href="#e58f82e88083e69687e78cae"><i class="fa fa-check"></i>参考文献</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<!--bookdown:title:end-->
+<!--bookdown:title:start-->
+<div id="section-1" class="section level1">
+<h1><span class="header-section-number">1</span> 前言</h1>
+<ul>
+<li>新增，描述性统计，follow美债最近五年相关学者的展示方式。</li>
+<li>新增，EIU的引用，吴丹完成所有任务。</li>
+<li>谢磊，TIC的引用，还没有反馈我。</li>
+</ul>
+</div>
+<div id="treasury" class="section level1">
+<h1><span class="header-section-number">2</span> Treasury</h1>
+<p>国际投资者持有及买卖美国国债的数据，本文使用年度数据口径，主要由美国财政部下属的TIC（Treasury International Capital）数据库提供<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>。 本文使用较为大多学者常用的数据表—— 外国对美国证券组合投资的年度调查（Annual Survey on Foreign Portfolio Holdings of U.S. Securities）<span class="citation">(张明 2012; 王宇哲 2013; 李云林 2007; 李云林 2009; 张明 2009)</span><a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>。美国财政部每年会公布一次针对外国投资者对美证券投资状况的年度调查结果，期限截至每年6月30日，因此该数据为年中数据<span class="citation">(张明 2009)</span>。</p>
+<p>根据美国财政部的数据分类，外国持有的美国证券分为权益和债券两类，债券再分为国债、机构债和公司债三类。其中机构债券的大部分是房利美和房地美两家政府资助企业发放的抵押支持债券。 本文较为大多学者使用的债务数据<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a>。债券再分为国债、机构债<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a>和公司债三类。</p>
+<p>虽然该数据是大多学者研究美债的数据，但是实际上也存在低估的问题。因为这项数据未计算通过伦敦、香港等离岸金融中心间接持有的美国国债<span class="citation">(张明 2012)</span>。</p>
+<p>本文使用的美债数据存在一部分缺失值和异常值，统一按照TIC的官方解释进行调整。 数据存在空值，统一设为0； 数据大于0而小于等于50万美元的数据TIC不具体统计，这里统一处理为50万美元。 数据大于0而小于5000万美元的数据TIC不具体统计，这里统一处理为5000万美元。</p>
+<p>值得注意的是，中国作为最大的美债债权国，在2007年6月30日至2008年6月30日之间，中国对美国的股票投资由285亿美元上升至995亿美元，增长了2.5倍。外管局开始在自己的资产组合中增加股票投资<span class="citation">(张明 2009)</span>。因此本文考虑将各国的股票投资额，作为控制变量。</p>
+</div>
+<div id="eiu" class="section level1">
+<h1><span class="header-section-number">3</span> EIU</h1>
+<p>本文的其他宏观变量主要来自 <span class="citation">Economist Intelligence Unit (2018 Country Data)</span><a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a>。本文选取的样本包括中国、日本、英国等主要美债债权国，一共包含39个国家<a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a>。 从数据可得性的角度，本文选取的利率采用银行借款利率作为宏观指标，因为长短期存款利率缺失值较多。对于银行借款利率少量的缺失值，本文使用 <span class="citation">IMF (2008)</span> 补全法国、丹麦在2002年的缺失值。 开曼群岛虽然作为美债主要债权国之一，但是其各宏观变量缺失值较多，因此本文没有考虑开曼群岛。</p>
+</div>
+<div id="section-4" class="section level1">
+<h1><span class="header-section-number">4</span> 描述性统计</h1>
+<div id="--" class="section level2">
+<h2><span class="header-section-number">4.1</span> 主要外国 (地区) 投资者持有的美国长期国债平均份额和变动</h2>
+<table>
+<caption><span id="tab:unnamed-chunk-1">Table 4.1: </span>主要外国 (地区) 投资者持有的美国长期国债平均份额和变动</caption>
+<thead>
+<tr class="header">
+<th align="left">id</th>
+<th align="right">prop_avg</th>
+<th align="right">prop_sd</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">JAPAN</td>
+<td align="right">16.54%</td>
+<td align="right">2.10%</td>
+</tr>
+<tr class="even">
+<td align="left">CHINA MAINLAND</td>
+<td align="right">13.54%</td>
+<td align="right">4.25%</td>
+</tr>
+<tr class="odd">
+<td align="left">LUXEMBOURG</td>
+<td align="right">6.20%</td>
+<td align="right">0.65%</td>
+</tr>
+<tr class="even">
+<td align="left">UNITED KINGDOM</td>
+<td align="right">6.18%</td>
+<td align="right">0.58%</td>
+</tr>
+<tr class="odd">
+<td align="left">BELGIUM</td>
+<td align="right">5.75%</td>
+<td align="right">0.82%</td>
+</tr>
+<tr class="even">
+<td align="left">CAYMAN ISLANDS</td>
+<td align="right">5.66%</td>
+<td align="right">0.88%</td>
+</tr>
+<tr class="odd">
+<td align="left">COUNTRY UNKNOWN</td>
+<td align="right">4.18%</td>
+<td align="right">4.73%</td>
+</tr>
+<tr class="even">
+<td align="left">IRELAND</td>
+<td align="right">3.50%</td>
+<td align="right">0.83%</td>
+</tr>
+<tr class="odd">
+<td align="left">TAIWAN</td>
+<td align="right">2.69%</td>
+<td align="right">0.69%</td>
+</tr>
+<tr class="even">
+<td align="left">SWITZERLAND</td>
+<td align="right">2.64%</td>
+<td align="right">0.46%</td>
+</tr>
+<tr class="odd">
+<td align="left">BERMUDA</td>
+<td align="right">2.61%</td>
+<td align="right">0.30%</td>
+</tr>
+<tr class="even">
+<td align="left">MIDDLE EAST OILEXPORTERS</td>
+<td align="right">2.42%</td>
+<td align="right">0.76%</td>
+</tr>
+<tr class="odd">
+<td align="left">GERMANY</td>
+<td align="right">2.18%</td>
+<td align="right">0.43%</td>
+</tr>
+<tr class="even">
+<td align="left">HONG KONG</td>
+<td align="right">2.05%</td>
+<td align="right">0.56%</td>
+</tr>
+<tr class="odd">
+<td align="left">CANADA</td>
+<td align="right">1.87%</td>
+<td align="right">0.29%</td>
+</tr>
+<tr class="even">
+<td align="left">KOREA SOUTH</td>
+<td align="right">1.75%</td>
+<td align="right">0.51%</td>
+</tr>
+<tr class="odd">
+<td align="left">RUSSIA</td>
+<td align="right">1.73%</td>
+<td align="right">0.58%</td>
+</tr>
+<tr class="even">
+<td align="left">BRAZIL</td>
+<td align="right">1.62%</td>
+<td align="right">0.97%</td>
+</tr>
+<tr class="odd">
+<td align="left">NETHERLANDS</td>
+<td align="right">1.54%</td>
+<td align="right">0.43%</td>
+</tr>
+<tr class="even">
+<td align="left">SINGAPORE</td>
+<td align="right">1.23%</td>
+<td align="right">0.22%</td>
+</tr>
+</tbody>
+</table>
+<p>资料来源: 外国对美国证券的组合投资年度调查 (Treasury International Capital)</p>
+<p>这里的统计指标含有长期和短期美债，统计口径为2002年6月至2014年6月。 <span class="citation">王宇哲 (2013)</span> 的文献中也体现了这部分的数据，主要为了表达选取国家的样本，只不过他统计的是<mark>国债</mark>。</p>
+</div>
+<div id="--" class="section level2">
+<h2><span class="header-section-number">4.2</span> 2014年主要外国 (地区) 投资者持有各美元证券的比例</h2>
+<table>
+<caption><span id="tab:unnamed-chunk-2">Table 4.2: </span>主要外国 (地区) 投资者持有的美国长期国债平均份额和变动</caption>
+<thead>
+<tr class="header">
+<th align="left">id</th>
+<th align="right">LT Agency Debt</th>
+<th align="right">LT Corporate Debt</th>
+<th align="right">LT Equity</th>
+<th align="right">LT Treasury Debt</th>
+<th align="right">ST Agency Debt</th>
+<th align="right">ST Corporate Debt</th>
+<th align="right">ST Treasury Debt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">TOTAL</td>
+<td align="right">5.05%</td>
+<td align="right">18.10%</td>
+<td align="right">38.72%</td>
+<td align="right">32.78%</td>
+<td align="right">0.26%</td>
+<td align="right">1.24%</td>
+<td align="right">3.86%</td>
+</tr>
+<tr class="even">
+<td align="left">JAPAN</td>
+<td align="right">8.72%</td>
+<td align="right">8.73%</td>
+<td align="right">18.82%</td>
+<td align="right">60.49%</td>
+<td align="right">0.08%</td>
+<td align="right">0.04%</td>
+<td align="right">3.12%</td>
+</tr>
+<tr class="odd">
+<td align="left">CHINA MAINLAND</td>
+<td align="right">11.25%</td>
+<td align="right">1.30%</td>
+<td align="right">17.59%</td>
+<td align="right">69.38%</td>
+<td align="right">0.04%</td>
+<td align="right">0.00%</td>
+<td align="right">0.44%</td>
+</tr>
+<tr class="even">
+<td align="left">CAYMAN ISLANDS</td>
+<td align="right">1.55%</td>
+<td align="right">25.85%</td>
+<td align="right">59.49%</td>
+<td align="right">7.11%</td>
+<td align="right">0.50%</td>
+<td align="right">0.50%</td>
+<td align="right">5.00%</td>
+</tr>
+<tr class="odd">
+<td align="left">UNITED KINGDOM</td>
+<td align="right">0.76%</td>
+<td align="right">28.60%</td>
+<td align="right">57.50%</td>
+<td align="right">10.24%</td>
+<td align="right">0.09%</td>
+<td align="right">0.66%</td>
+<td align="right">2.15%</td>
+</tr>
+<tr class="even">
+<td align="left">LUXEMBOURG</td>
+<td align="right">1.96%</td>
+<td align="right">40.24%</td>
+<td align="right">41.87%</td>
+<td align="right">9.29%</td>
+<td align="right">0.70%</td>
+<td align="right">3.04%</td>
+<td align="right">2.91%</td>
+</tr>
+<tr class="odd">
+<td align="left">CANADA</td>
+<td align="right">0.41%</td>
+<td align="right">14.47%</td>
+<td align="right">77.85%</td>
+<td align="right">4.87%</td>
+<td align="right">0.06%</td>
+<td align="right">0.58%</td>
+<td align="right">1.76%</td>
+</tr>
+<tr class="even">
+<td align="left">BELGIUM</td>
+<td align="right">0.87%</td>
+<td align="right">43.05%</td>
+<td align="right">4.78%</td>
+<td align="right">49.49%</td>
+<td align="right">0.01%</td>
+<td align="right">0.36%</td>
+<td align="right">1.45%</td>
+</tr>
+<tr class="odd">
+<td align="left">IRELAND</td>
+<td align="right">5.39%</td>
+<td align="right">33.87%</td>
+<td align="right">30.26%</td>
+<td align="right">11.41%</td>
+<td align="right">1.04%</td>
+<td align="right">12.81%</td>
+<td align="right">5.22%</td>
+</tr>
+<tr class="even">
+<td align="left">SWITZERLAND</td>
+<td align="right">2.45%</td>
+<td align="right">17.26%</td>
+<td align="right">52.24%</td>
+<td align="right">24.31%</td>
+<td align="right">0.04%</td>
+<td align="right">0.23%</td>
+<td align="right">3.46%</td>
+</tr>
+</tbody>
+</table>
+<p>资料来源: 外国对美国证券的组合投资年度调查 (Treasury International Capital)</p>
+<p>权益，特指长期权益。</p>
+</div>
+</div>
+<div id="e58f82e88083e69687e78cae" class="section level1 unnumbered">
+<h1>参考文献</h1>
+<div id="refs" class="references">
+<div id="ref-EIU">
+<p>Economist Intelligence Unit. 2018. <em>CountryData</em>. London: Economist Intelligence Unit.</p>
+</div>
+<div id="ref-IMF2008">
+<p>IMF. 2008. <em>International Financial Statistics Yearbook 2008</em>. Washington DC, USA: International Monetary Fund, Statistics Dept.</p>
+</div>
+<div id="ref-张明2009外汇管理">
+<p>张明. 2009. “中国外汇储备管理思路的应有变化.” <em>国际经济评论</em>, no. 5: 45–48.</p>
+</div>
+<div id="ref-张明2012国债">
+<p>———. 2012. “中国投资者是否是美国国债市场上的价格稳定者.” <em>世界经济</em>, no. 5: 46–61.</p>
+</div>
+<div id="ref-李云林2007国债">
+<p>李云林. 2007. “外资扩张美国长期国债需求的国别实证分析——破解格林斯潘之‘谜’系列研究一之五.” <em>经济研究参考</em>, no. 56: 38–48.</p>
+</div>
+<div id="ref-李云林2009国债">
+<p>———. 2009. “中国、日本、英国持有美国证券的对比分析.” <em>中国经贸导刊</em>, no. 1: 25–26.</p>
+</div>
+<div id="ref-王宇哲2013国债">
+<p>王宇哲, 张明. 2013. “美国长期国债市场上主要外国投资者的投资行为比较.” <em>国际金融研究</em>, no. 11: 47–55.</p>
+</div>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>TIC相关数据、文件可在网址处找寻，www.treas.gov/tic。<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>此外， TIC数据库会公布美国国债的主要外国持有者（Major Foreign Holders of Treasury Securities），该表为月度数据，每月公布美国国债的主要投资者持有全口径美国国债的数据。但是除每年6月会根据Survey数据公布一个参考值外，其他月度的数据都不是很准确<span class="citation">(王宇哲 2013)</span>。 因为该数据是美国财政部公布的每月各国净购入国债的数据，更多是基于地域导向；而本文使用的数据为每年年度调查公布的数据，更多是基于所有权导向，因此更为准确<span class="citation">(张明 2009)</span>。<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p><span class="citation">王宇哲 (2013)</span> 使用，外国持有者的<span class="math inline">\(\frac{长期美国国债持有量}{国债资产}\)</span>和<span class="math inline">\(\frac{长期美国国债持有量}{长期美元资产}\)</span>进行实证分析。<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>其中机构债券的大部分是房利美和房地美两家政府资助企业发放的抵押支持债券<span class="citation">(李云林 2009)</span>。<a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p>数据来源主要是来自EIU计算、IMF国际金融统计年鉴、欧洲经济共同体统计局、美联储、香港特别行政区政府统计处、欧洲央行等。<a href="#fnref5">↩</a></p></li>
+<li id="fn6"><p>39个国家分别是 阿根廷、澳大利亚、奥地利、比利时、巴西、加拿大、中国、捷克共和国、丹麦、芬兰、法国、德国、香港、印度、印度尼西亚、爱尔兰、意大利、日本、韩国代表、卢森堡、马来西亚、墨西哥、荷兰、新西兰、挪威、秘鲁、菲律宾、波兰、葡萄牙、罗马尼亚、俄罗斯联邦、新加坡、南非、西班牙、瑞典、瑞士、台湾、泰国、英国<a href="#fnref6">↩</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+},
+"search": false
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
