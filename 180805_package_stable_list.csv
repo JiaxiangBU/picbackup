@@ -1,0 +1,2 @@
+﻿Package,LibPath,Version,Priority,Depends,Imports,LinkingTo,Suggests,Enhances,License,License_is_FOSS,License_restricts_use,OS_type,MD5sum,NeedsCompilation,Built
+remedy,C:/Program Files/R/R-3.4.4/library,0.0.0.9600,NA,NA,"rstudioapi, knitr, jsonlite",NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,NA,3.4.3
