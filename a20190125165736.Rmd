@@ -1,0 +1,9 @@
+---
+output: github_document
+---
+
+```{r}
+library(rmarkdown)
+render("sample-webp.Rmd")
+```
+
