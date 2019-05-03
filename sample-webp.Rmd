@@ -1,0 +1,9 @@
+---
+output: github_document
+---
+
+```{r}
+library(knitr)
+include_graphics("gantt1.webp")
+```
+
